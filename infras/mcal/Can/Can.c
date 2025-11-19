@@ -23,6 +23,7 @@ extern const Can_ConfigType Can_Config;
 /* ================================ [ DATAS     ] ============================================== */
 /* ================================ [ LOCALS    ] ============================================== */
 #ifdef USE_SHELL
+####
 static int LsCanFunc(int argc, const char *argv[]) {
   int i;
   const Can_ChannelConfigType *config;
@@ -34,6 +35,7 @@ static int LsCanFunc(int argc, const char *argv[]) {
   }
   return 0;
 }
+####
 SHELL_REGISTER(lscan, "list can status\n", LsCanFunc);
 #endif
 /* ================================ [ ALIAS     ] ============================================== */
@@ -75,7 +77,7 @@ Std_ReturnType Can_SetControllerMode(uint8_t Controller, Can_ControllerStateType
           }
         }
         if (E_OK != ret) {
-          ASLOG(CANE, ("[%" PRIu8 "] Failed to set PIN %d mode\n", Controller, i));
+          ASLOG(CANE, ("[%" PRIu8 "] Failed to set PINnnn %d mode\n", Controller, i));
           break;
         }
       }
