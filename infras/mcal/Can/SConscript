@@ -12,4 +12,5 @@ class LibraryCan(Library):
         self.source = objs
         #######
         ####
-        ###
+        ###$#########
+        ##########
