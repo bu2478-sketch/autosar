@@ -14,7 +14,7 @@ __all__ = ["JsonModule", "JsonAction", "logging"]
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(filename)s[line:%(lineno)d] - %(levelname)s: %(message)s"
 )
-
+##
 cCharWidth = 14
 cActionNumber = 8
 
