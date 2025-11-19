@@ -35,6 +35,7 @@ static int LsCanFunc(int argc, const char *argv[]) {
   return 0;
 }
 ####
+####
 SHELL_REGISTER(lscan, "list can status\n", LsCanFunc);
 #endif
 /* ================================ [ ALIAS     ] ============================================== */
